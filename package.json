@@ -1,0 +1,33 @@
+{
+  "name": "roque-nagios",
+  "preferGlobal": "true",
+  "version": "0.0.1",
+  "author": "Benjamin Eidelman <beneidel@gmail.com>",
+  "description": "Nagios plugin to monitor Roque queues",
+  "bin": {
+    "roque-nagios": "./roque-nagios.js"
+  },
+  "scripts": {
+    "start": "node ./roque-nagios"
+  },
+  "main": "./roque-nagios",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benjamine/roque-nagios.git"
+  },
+  "keywords": [
+    "roque",
+    "nagios",
+    "monitor",
+    "queues"
+  ],
+  "dependencies" : {
+    "optimist" :  "0.2.x",
+    "redis" :  ">=0.8.1"
+  },
+  "analyze": false,
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8.6"
+  }
+}
