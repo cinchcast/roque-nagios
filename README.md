@@ -1,7 +1,6 @@
-
 # Roque-Nagios
 
-Nagios plugin to monitor Roque Queues.
+Nagios plugin to monitor [Roque Queues](https://github.com/cinchcast/Roque).
 
 This plugin allows you to setup nagios monitoring on:
 
