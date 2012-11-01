@@ -64,7 +64,7 @@ var secondsToString = function(seconds) {
 var checkQueue = function(name, callback) {
     log('\nInfo for queue: '+ name);
     var info = {};
-    var key = 'roque:'+name;
+    var key = 'roque:q:'+name;
     client.llen(key, function(err, reply){
         if (err){
             callback(err);
