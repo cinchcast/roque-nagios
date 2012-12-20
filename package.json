@@ -1,7 +1,7 @@
 {
   "name": "roque-nagios",
   "preferGlobal": "true",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Benjamin Eidelman <beneidel@gmail.com>",
   "description": "Nagios plugin to monitor Roque queues",
   "bin": {
@@ -28,6 +28,6 @@
   "analyze": false,
   "license": "MIT",
   "engines": {
-    "node": ">=0.8.6"
+    "node": ">=0.6"
   }
 }
